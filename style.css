@@ -1,0 +1,82 @@
+body{
+    background-color: #f7f7f7;
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
+}
+.photo{
+    border: 2px solid #505050;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+.post{
+    background-color: #fff;
+    padding: 15px;
+    border: #505050  solid  3px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#title, .subtitle, .post_title{
+    color: #505050;
+}
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
+#title{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.subtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_context{
+    margin: 0px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+.post_img{
+    margin: 0%;
+    margin-bottom: 15px;
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+}
+
+ul{
+    list-style-type: "\1f44d";
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+.contact_list{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 15px;
+}
+
+.contact_list li a{
+    color: blue;
+    text-decoration: none;
+}
